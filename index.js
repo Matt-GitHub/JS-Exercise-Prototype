@@ -121,10 +121,10 @@ Baby.prototype.play = function () {
   TASK 4
 
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1. Global -> window and global scope (use strict to prevent break)
+  2. Implicit -> object scope to the left of the .(method)
+  3. New Binding -> let NEW = NEW object
+  4. Explicit Binding -> .call, .apply., .bind where call takes argurments 1 by 1 using arguments, apply takes an array of arguments, and bind creates a new function which can be invoked later
 */
 
 
